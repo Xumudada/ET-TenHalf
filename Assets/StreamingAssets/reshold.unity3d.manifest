@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3143019106
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7615df324c79b9b1625e9d30fa4b7bd8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c9e5f9332925a0d343018787fc4be837
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Bundles/Misc/ResHold.prefab
+Dependencies: []

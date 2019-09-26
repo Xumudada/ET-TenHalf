@@ -1,0 +1,107 @@
+<root>
+	<Properties>
+		<!--玩家名-->
+		<playernameBase>
+			<Type>UNICODE</Type>
+			<Flags>BASE_AND_CLIENT</Flags>
+			<Persistent>true</Persistent>
+		</playernameBase>
+		
+		<!--金币-->
+		<goldBase>
+			<Type>Gold</Type>
+			<Flags>BASE_AND_CLIENT</Flags>
+			<Persistent>true</Persistent>
+		</goldBase>
+
+		<!--玩家名-->
+		<playernameCell>
+			<Type>UNICODE</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</playernameCell>
+
+		<!--座位号-->
+		<index>
+			<Type>UINT8</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</index>
+
+		<!--是否准备好-->
+		<isReady>
+			<Type>Bool</Type>
+			<Flags>ALL_CLIENTS</Flags>
+			<Default>0</Default>
+		</isReady>
+	</Properties>
+
+	<ClientMethods>
+		<!--0:成功, 1:没有此房间, 2:房间已满-->
+		<onJoinRoom>
+			<Arg>UINT8</Arg>
+		</onJoinRoom>
+
+		<!--离开房间-->
+		<onLeaveRoom>
+		</onLeaveRoom>
+	</ClientMethods>
+
+	<BaseMethods>
+		<!--设置玩家名-->
+		<reqSetPlayername>
+			<Exposed/>
+			<Arg>UNICODE</Arg>
+		</reqSetPlayername>
+
+		<!--加金币-->
+		<addGold>
+			<Exposed/>
+		</addGold>
+
+		<!--创建房间-->
+		<createRoom>
+			<Exposed/>
+		</createRoom>
+
+		<!--加入房间-->
+		<joinRoom>
+			<Exposed/>
+			<Arg>RoomKey</Arg>
+		</joinRoom>
+
+		<!--进入匹配-->
+		<enterMatch>
+			<Exposed/>
+		</enterMatch>
+		
+		<!--设置空间-->
+		<setSpace>
+			<Arg>ENTITYCALL</Arg>
+		</setSpace>
+
+		<!--离开房间-->
+		<onLeaveRoom>
+		</onLeaveRoom>
+		
+		<!--加入房间-->
+		<onJoinRoom>
+			<Arg>UINT8</Arg>
+		</onJoinRoom>
+	</BaseMethods>
+
+	<CellMethods>
+		<setPlayernameCell>
+			<Arg>UNICODE</Arg>
+		</setPlayernameCell>
+
+		<setIndex>
+			<Arg>UINT8</Arg>
+		</setIndex>
+
+		<setIsReady>
+			<Arg>Bool</Arg>
+		</setIsReady>
+
+		<onGetCell>
+		</onGetCell>
+	</CellMethods>
+</root>

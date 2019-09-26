@@ -1,0 +1,63 @@
+<root>
+	<Properties>
+		<!--玩家列表-->
+		<playerList>
+			<Type>PlayerList</Type>
+			<Flags>BASE</Flags>
+		</playerList>
+		
+		<!--房间Key-->
+		<roomKey>
+			<Type>RoomKey</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</roomKey>
+
+		<!--是否私人房-->
+		<isPrivate>
+			<Type>Bool</Type>
+			<Flags>ALL_CLIENTS</Flags>
+		</isPrivate>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<!--进入房间, account-->
+		<enterRoom>
+			<Arg>ENTITYCALL</Arg>
+		</enterRoom>
+
+		<!--离开房间: account-->
+		<leaveRoom>
+			<Arg>INT32</Arg>
+		</leaveRoom>
+
+		<!--是否需要玩家-->
+		<needPlayerCount>
+		</needPlayerCount>
+	</BaseMethods>
+
+	<CellMethods>
+		<!--离开房间-->
+		<leaveRoom>
+			<Exposed/>
+		</leaveRoom>
+
+		<!--改变准备状态-->
+		<changeIsReady>
+			<Exposed/>
+		</changeIsReady>
+		
+		<!--进入房间, account-->
+		<enterRoom>
+			<Arg>ENTITYCALL</Arg>
+		</enterRoom>
+
+		<!--坐下: account-->
+		<sitDown>
+			<Arg>ENTITYCALL</Arg>
+			<Arg>UNICODE</Arg>
+		</sitDown>
+	</CellMethods>
+</root>

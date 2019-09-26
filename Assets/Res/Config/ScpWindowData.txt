@@ -1,0 +1,1 @@
+{"serverIP":"119.23.241.65","username":"root","serverProgramPath":"/root/ET","serverBundlePath":"/var/www/html/TenHalf","platformType":3}

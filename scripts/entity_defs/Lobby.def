@@ -1,0 +1,33 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<!--创建房间-->
+		<createRoom>
+			<Arg>ENTITYCALL</Arg>
+		</createRoom>
+
+		<!--加入房间-->
+		<joinRoom>
+			<Arg>ENTITYCALL</Arg>
+			<Arg>RoomKey</Arg>
+		</joinRoom>
+		
+		<!--进入匹配-->
+		<enterMatch>
+			<Arg>ENTITYCALL</Arg>
+		</enterMatch>
+
+		<!--移除私有房间-->
+		<removePrivateRoom>
+			<Arg>RoomKey</Arg>
+		</removePrivateRoom>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

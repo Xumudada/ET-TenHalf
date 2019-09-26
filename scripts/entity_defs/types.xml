@@ -1,0 +1,8 @@
+<root>
+	<Gold>UINT32</Gold>
+	<RoomKey>UINT16</RoomKey>
+	<Bool>UINT8</Bool>
+	<PlayerList>
+		ARRAY<of>ENTITYCALL</of>
+	</PlayerList>
+</root>

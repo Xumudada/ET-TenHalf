@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 3222497614
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: map.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: font_fatman.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: config.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: code.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: reshold.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: tippanel.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+    Info_6:
+      Name: uilogin.unity3d
+      Dependencies: {}
+    Info_7:
+      Name: unit.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: uilobby.unity3d
+      Dependencies: {}
+    Info_9:
+      Name: button.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+    Info_10:
+      Name: text.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+    Info_11:
+      Name: inputfield.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+    Info_12:
+      Name: login.unity3d
+      Dependencies: {}
+    Info_13:
+      Name: loginpanel.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+        Dependency_1: button.unity3d
+        Dependency_2: text.unity3d
+        Dependency_3: inputfield.unity3d
+    Info_14:
+      Name: lobby.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: lobbypanel.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+        Dependency_1: button.unity3d
+        Dependency_2: text.unity3d
+        Dependency_3: inputfield.unity3d
+    Info_16:
+      Name: room.unity3d
+      Dependencies: {}
+    Info_17:
+      Name: roompanel.unity3d
+      Dependencies:
+        Dependency_0: font_fatman.unity3d
+        Dependency_1: text.unity3d
